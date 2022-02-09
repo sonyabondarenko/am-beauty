@@ -1,12 +1,12 @@
 @font-face {
   font-family: Mont;
-  src: url(./fonts/Mont-Regular.woff2);
+  src: url(.fonts/Mont-Regular.woff2);
   font-weight: regular;
   font-display: swap;
 }
 @font-face {
   font-family: Mont;
-  src: url(./fonts/Mont-Light.woff2);
+  src: url(.fonts/Mont-Light.woff2);
   font-weight: 300;
   font-display: swap;
 }
@@ -171,4 +171,195 @@ color: #000000;
 }
 .collection__image{
   display: flex;
+}
+.mySwiper .swiper-button-next, .mySwiper .swiper-button-prev {
+  width: 30px !important;
+  height: 30px !important;
+  border: 1px solid #444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1 !important;
+  position: absolute;
+  bottom: 97px;
+  top: unset;
+  left: 45px;
+    transition: all .3s ease;
+}
+.mySwiper .swiper-button-next:hover, .mySwiper .swiper-button-prev:hover  {
+  background: #444;
+  transition: all .3s ease;
+}
+
+.mySwiper .swiper-button-next{
+  left: 85px;
+  right: unset;
+}
+.mySwiper .swiper-button-next::after, .mySwiper .swiper-button-prev:after{
+  display: none;
+}
+.mySwiper .swiper-button-next svg, .mySwiper .swiper-button-prev svg{
+  fill: #444;
+}
+.mySwiper .swiper-button-next:hover svg, .mySwiper .swiper-button-prev:hover svg {
+  fill: #fff;
+  transition: all .3s ease;
+}
+.mySwiper{
+  height: 463px;
+  margin-bottom: 50px;
+}
+.mySwiper .column{
+  font-size: 18px;
+}
+.swiper-slide .row{
+  background: #F8F8F8;
+  height: 100%;
+}
+.swiper-slide .slide-content {
+  height: 100%;
+  padding-top: 85px;
+
+  width: 35%;
+  padding-right: 64px;
+  padding-left: 45px;
+
+}
+.mySwiper .slide-images{
+  width: 65%;
+
+}
+.slide-images .row{
+  align-items: center;
+  justify-content: space-between;
+}
+.slide-images .slide-image{
+  width: calc( 100% / 3 - 7.5px);
+}
+.slide-images .slide-image img{
+  width: 100%;
+}
+.blog-post-brands__title{
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 46px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #000;
+  margin-bottom: 40px;
+}
+.blog-post-brands__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 25px;
+  margin-bottom: 50px;
+}
+.blog-post-brands__grid .item{
+  background: #F8F8F8;
+}
+.blog-post-brands__grid .item-title{
+  padding: 16px 0;
+  text-align: center;
+  font-size: 24px;
+  line-height: 31px;
+  font-family: Mont;
+  font-weight: 200;
+}
+.blog-post-contacts{
+  margin-bottom: 113px;
+}
+.blog-post-contacts h3{
+  font-family: Mont;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  padding-bottom: 19px;
+  border-bottom: 1px solid #000;
+}
+.blog-post-contacts .row{
+  justify-content: space-between;
+}
+.blog-post-contacts .column{
+  width: calc(50% - 15px);
+}
+.blog-post-contacts__address {
+  font-family: Open Sans;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+}
+.blog-post-contacts__address p{
+  margin-bottom: 18px;
+}
+.blog-post-contacts__phone a{
+  display: block;
+  color: #000;
+  font-family: Open Sans;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  text-decoration: none;
+}
+.blog-pagination .row{
+  justify-content: space-between;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: none;
+  border-right: none;
+  padding: 39px ;
+  margin:  0 50px;
+
+}
+
+.blog-pagination-wrap{
+  background: #F8F8F8;
+  padding-bottom: 40px;
+  margin-bottom: 42px;
+}
+.website-info {
+  padding: 23px 30px;
+}
+.blog-logo{
+  width: 123px;
+    margin-right: 34px;
+}
+.blog-logo img{
+  width: 100%;
+}
+.website-info .blog-info{
+  font-weight: 300;
+font-size: 18px;
+line-height: 25px;
+}
+.website-info .blog-info h4{
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  font-family: Open Sans;
+  margin-bottom: 18px;
+  text-transform: uppercase;
+}
+.blog-post-brands__grid .related-item{
+  background: none;
+}
+.related-item .item-title{
+  padding: 0;
+  text-align: left;
+  font-size: 24px;
+  line-height: 31px;
+  margin-bottom: 10px;
+}
+.related-item .item-date{
+  text-transform: uppercase;
+  font-family: Mont;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 20px;
+}
+.blog-post-brands__grid .related-item-info{
+  background: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  padding-bottom: 30px;
+  padding-top: 25px;
 }
