@@ -378,6 +378,7 @@ line-height: 25px;
   padding: 30px;
   padding-left: 45px;
   margin-bottom: 50px;
+  box-sizing: border-box;
 }
 .blog-slider .slide-content{
   width: 35%;
