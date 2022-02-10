@@ -468,10 +468,10 @@ line-height: 25px;
 }
 }
 @media screen and (max-width: 767px) {
-  .blog-slider{
+  .blog-slider .container{
     margin-bottom: 0;
   }
-  .blog-slider{
+  .blog-slider .container{
     background: none;
     padding: 0;
   }
