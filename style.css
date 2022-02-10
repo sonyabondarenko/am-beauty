@@ -373,7 +373,7 @@ line-height: 25px;
 .blog-post-brands__grid img{
   width: 100%;
 }
-.blog-slider {
+.blog-slider .container{
   background: #F8F8F8;
   padding: 30px;
   padding-left: 45px;
