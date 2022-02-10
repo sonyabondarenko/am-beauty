@@ -477,8 +477,11 @@ line-height: 25px;
   }
   .blog-slider .container{
     background: none;
-    padding: 0;
+    padding: 0 15px;
   }
+  .slide-content {
+    height: auto;
+}
   .blog-slider .row{
     flex-direction: column;
   }
