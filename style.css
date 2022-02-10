@@ -388,10 +388,13 @@ line-height: 25px;
   box-sizing: border-box;
 }
 .mySwiper{
-  width: 64%;
+  width: 65%;
 }
 .mySwiper .swiper-pagination{
   display: none;
+}
+.mySwiper .slide-image{
+  display: flex;
 }
 .mySwiper img{
   width: 100%;
